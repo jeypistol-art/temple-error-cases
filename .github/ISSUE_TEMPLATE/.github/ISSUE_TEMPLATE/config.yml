@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 駆け込み寺に事例を奉納する / Submit an error case
+    url: https://github.com/jeypistol-art/temple-error-cases/issues/new?template=add_case.yml
+    about: エラー事例を静かに置いていくためのフォームです
