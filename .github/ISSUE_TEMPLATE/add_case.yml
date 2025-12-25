@@ -1,0 +1,26 @@
+name: 事例追加 / Add Error Case
+description: 駆け込み寺にエラー事例を奉納します
+title: "[CASE] "
+labels: ["case"]
+body:
+  - type: textarea
+    attributes:
+      label: エラー原文 / Original error
+      description: Google / Apple などから表示された英語エラー
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 何が起きたか / What happened
+      description: どんな状況で出たエラーか
+
+  - type: textarea
+    attributes:
+      label: 最終的な対処 / How it was resolved
+      description: 解決した場合のみでOK
+
+  - type: input
+    attributes:
+      label: 対象サービス / Service
+      description: Apple / Google / AdMob / Search Console など
